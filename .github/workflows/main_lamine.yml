@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'lamine'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D25F2531DE274FB7ABF1B8C2E6EF66EA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1D8E8FDE949341B8820613CC91B71CF1 }}
