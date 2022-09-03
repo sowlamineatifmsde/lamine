@@ -5,16 +5,16 @@ import pickle
 
 st.image("http://www.ehtp.ac.ma/images/lo.png")
 
-st.markdown(f'<h1 style="color:#773723;text-align: center;font-size:48px;">{"Machine Learning project"}</h1>', unsafe_allow_html=True)
-st.markdown(f'<h1 style="color:#da9954;text-align: center;font-size:36px;">{"Loan Defaulters Prediction App"}</h1>', unsafe_allow_html=True)
-st.markdown(f'<h1 style="color:#557caf;font-size:24px;">{"> realized by: Atif Lamine Sow & Mustapha El Idrissi"}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="color:#773723;text-align: center;font-size:48px;">{"KAGGLE CLOUS COMPUTING"}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="color:#da9954;text-align: center;font-size:36px;">{"DIABETES Prediction App"}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="color:#557caf;font-size:24px;">{"> realized by: SOW Lamine Atif"}</h1>', unsafe_allow_html=True)
 
 
 option = st.selectbox(
      'How would you like to use the prediction model?',
      ('','input parameters directly', 'Load a file of data'))
 
-st.sidebar.image("https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2019/02/LC-Logo-Official-min.png", width = 300)
+
 
 
 mapping_dict = {"emp_length": {"10+ years": 10,
