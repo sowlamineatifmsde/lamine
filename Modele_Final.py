@@ -26,7 +26,7 @@ elif option=='Load a file of data':
         df = pd.read_csv(uploaded_file)
         st.write(df)
 
-model_loan=pickle.load(open("Modele_Final.pkl", "rb"))
+    model_loan=pickle.load(open("Modele_Final.pkl", "rb"))
 
     if st.button('Predict'):
         prediction = model_loan.predict(df)
