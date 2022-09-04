@@ -11,4 +11,6 @@ fbprophet
 holidays==0.10.3
 psutil==5.8.0
 
-while read requirement; do conda install --yes $requirement || pip install $requirement; done < requirements.txt
+channels:
+- anaconda
+- conda-forge
